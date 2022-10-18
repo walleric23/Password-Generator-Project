@@ -19,4 +19,7 @@ N/A
 ## License
 
 Please refer to the license present in the Github repository.
-image.png
+
+link to deployed page - https://walleric23.github.io/Password-Generator-Project/
+
+<img src="./images/Passgen.PNG"
