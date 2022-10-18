@@ -22,4 +22,4 @@ Please refer to the license present in the Github repository.
 
 link to deployed page - https://walleric23.github.io/Password-Generator-Project/
 
-<img src="./images/Passgen.PNG"
+<img src="./images/Passgen.PNG">
