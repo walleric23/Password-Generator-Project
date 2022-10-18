@@ -101,14 +101,15 @@ function generatePassword() {
   // randomly selects characters from master array
   console.log(masterArray);
   function getrandomInt(userChoice, masterArray) {
-    var newPass = "";
+    var newPass = [];
     for (i = 0; i < userChoice; i++) {
-      newPass =
-        newPass + masterArray[Math.floor(math.random) * masterArray.length];
+      newPass.push(masterArray[Math.floor(Math.random() * masterArray.length)]);
     }
+    console.log(newPass);
+    return newPass;
   }
-
-  passwordText.value = newPass;
+  var finalPass = getrandomInt(passwordLength, masterArray);
+  return finalPass;
 }
 
 // ## Acceptance Criteria
